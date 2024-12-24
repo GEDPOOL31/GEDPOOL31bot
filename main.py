@@ -32,7 +32,6 @@ def send_telegram_message(text, chat_id):
 def chat_with_ai_tg(update):
     chat_id = update['message']['chat']['id']
 
-    # Проверяем наличие текста в сообщении
     user_input = update['message'].get('text')
 
     if not user_input:
