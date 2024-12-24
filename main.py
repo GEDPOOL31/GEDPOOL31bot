@@ -6,15 +6,14 @@ import time
 sys.stdout.reconfigure(encoding='utf-8')
 sys.stdin.reconfigure(encoding='utf-8')
 
-# Устанавливаем локаль
 locale.setlocale(locale.LC_ALL, 'en_US.UTF-8')
 
 url = 'https://api.x.ai/v1/chat/completions'
-api_key = 'xai-Jwgl7p5p8GxqPgd2FQqmW6z1xK1PPlEoICkj8q78pvtEl9z3lkfGZ8gthd9aUSYkI0SQT7Tv7vIoHP9P'
+api_key = 'XAI TOKEN'
 
-bot_token = '7675851187:AAGXgiigEw0S-uRzZAobVNlnGI7eSQJezhk'
+bot_token = 'TG TOKEN'
 messages = [
-    {"role": "system", "content": "Ты мой помощник с сознанием Илона Маска"}
+    {"role": "system", "content": "Roles"}
 ]
 
 headers = {
